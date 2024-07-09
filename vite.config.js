@@ -8,11 +8,11 @@ export default defineConfig({
     outDir: "../dist",
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        cart: resolve(__dirname, "cart/index.html"),
-        product: resolve(__dirname, "product_pages/index.html"),
-        listing: resolve(__dirname, "product-listing/index.html"),
-        checkout: resolve(__dirname, "checkout/index.html"),
+        main: resolve(__dirname, "src/index.html"),
+        cart: resolve(__dirname, "src/cart/index.html"),
+        product: resolve(__dirname, "src/product_pages/index.html"),
+        listing: resolve(__dirname, "src/product-listing/index.html"),
+        checkout: resolve(__dirname, "src/checkout/index.html"),
       },
     },
   },
