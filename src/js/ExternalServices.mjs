@@ -1,5 +1,4 @@
-const baseURL = window.location.protocol === 'https:' ? 'https://server-nodejs.cit.byui.edu:3000/' : 'http://server-nodejs.cit.byui.edu:3000/';
-
+const baseURL = "http://server-nodejs.cit.byui.edu:3000/";
 async function convertToJson(res) {
   const data = await res.json();
   if (res.ok) {
