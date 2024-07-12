@@ -21,4 +21,4 @@ Use this as a starting point to complete the WDD 330 team activity: the SleepOut
 
 ## URL in Netlify
 
-- `https://idyllic-baklava-16d132.netlify.app/`
+- `https://sleepteam6.netlify.app`
